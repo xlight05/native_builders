@@ -31,4 +31,4 @@ jobs:
           file: ./azure/Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ${{ secrets.DOCKER_REPO_NAME }}/azure-native-builder:${{ github.event.inputs.tag }}
+          tags: ${{ secrets.DOCKER_REPO_NAME }}/azf_native_builder:${{ github.event.inputs.tag }}

@@ -31,4 +31,4 @@ jobs:
           file: ./aws/Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ${{ secrets.DOCKER_REPO_NAME }}/aws-native-builder:${{ github.event.inputs.tag }}
+          tags: ${{ secrets.DOCKER_REPO_NAME }}/lambda_native_builder:${{ github.event.inputs.tag }}
